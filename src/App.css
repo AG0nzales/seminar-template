@@ -1,0 +1,22 @@
+.clamp-container {
+  margin: 0 clamp(140px, 2%, 100px); /* Adjust the values as needed */
+
+  /* Additional styles */
+  padding: 20px; /* Example padding */
+  /* background-color: #f0f0f0;  Example background color */
+}
+
+.faq-size {
+  width: 70%;
+}
+
+.responsive-display {
+  display: hidden;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .clamp-container {
+    margin: 0 10px; /* Set fixed margin of 40px on smaller screens */
+  }
+}
